@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/maxSpeedDB"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeDB"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/averageSpeedDB"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maxSpeedDB"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="41dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/distanceDB"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lineChart"
+        android:layout_alignStart="@+id/averageSpeedDB"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="52dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/timeDB"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="29dp"
+        android:text="TextView" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/timeInscription"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeDB"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/timeDB"
+        android:text="@string/time" />
+
+    <TextView
+        android:id="@+id/maxSpedInscription"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/maxSpeedDB"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/maxSpeedDB"
+        android:text="@string/max_speed" />
+
+    <TextView
+        android:id="@+id/averageSpeedInscription"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/timeInscription"
+        android:layout_alignBottom="@+id/averageSpeedDB"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/averageSpeedDB"
+        android:text="@string/average_speed" />
+
+    <TextView
+        android:id="@+id/distanceInscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lineChart"
+        android:layout_alignStart="@+id/timeInscription"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="51dp"
+        android:text="@string/distance" />
+
+    <Button
+        android:id="@+id/deleteAllData"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/lineChart"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/deleteAll"/>
+</RelativeLayout>

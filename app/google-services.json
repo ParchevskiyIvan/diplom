@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94712423437",
+    "firebase_url": "https://speedmeter-master-7030f.firebaseio.com",
+    "project_id": "speedmeter-master-7030f",
+    "storage_bucket": "speedmeter-master-7030f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94712423437:android:479b43433448825e",
+        "android_client_info": {
+          "package_name": "fly.speedmeter.grub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94712423437-mneo475g8s9qg0trt3hu7m4klfin6c5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fly.speedmeter.grub",
+            "certificate_hash": "39a63423a5b7df37c4cb8602cafeed393599484e"
+          }
+        },
+        {
+          "client_id": "94712423437-prbm96j71qql1f70qh7a0smkavru8mk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhn7mHJKizlBKeWehdff8RYNTPdzeEHSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94712423437-prbm96j71qql1f70qh7a0smkavru8mk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

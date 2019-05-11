@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SpeedTest</string>
+    <string name="main_activity_toolbar_header_text">SpeedTest</string>
+    <string name="settings_activity_toolbar_header_text"></string>
+
+    <string name="max_speed">Max. speed: </string>
+    <string name="average_speed">Av. speed:</string>
+    <string name="distance">Distance:</string>
+    <string name="time">Time:</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="satellite">Satellites</string>
+    <string name="deleteAll">delete from BD</string>
+
+    <string name="accept_gps_on">Accept</string>
+    <string name="waiting_for_fix">GPS search</string>
+    <string name="gps_disabled">GPS отключен</string>
+    <string name="please_enable_gps">Для работы приложения необходимо включить GPS</string>
+
+    <string name="running">Route in process…</string>
+    <string name="notification">Max Speed : %1$s, Distance : %2$s.</string>
+
+    <string name="settings">Настройки</string>
+    <string name="app_info">About this app</string>
+    <string name="pref_auto_average">Определять остановку автоматически</string>
+    <string name="pref_auto_average_summary"></string>
+    <string name="pref_miles_per_hour">Использовать имперскую систему мер</string>
+    <string name="pref_miles_per_hour_summary"></string>
+
+    <string name="license">License</string>
+    <string name="donate">Donate</string>
+    <string name="donate_summary">Click in order to support my work :) …</string>
+    <string name="source_code">GitHub</string>
+    <string name="source_code_summary">Access to the source code.</string>
+    <string name="version">Speedmeter Version</string>
+
+    <string name="noti_id" translatable="false">Speedmeterisanid</string>
+    <string name="github" translatable="false">https://github.com/flyingrub/SpeedMeter</string>
+    <string name="license_type" translatable="false">GNU General Public License 2</string>
+    <string name="doante_url" translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=6DE8SFMJKRVK2</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>
